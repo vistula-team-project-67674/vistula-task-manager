@@ -1,57 +1,82 @@
-# Task Manager – Vistula Team Project
+# Task Manager – Vistula Practical Assignment 1
 
-A simple browser-based Task Manager built with HTML, CSS, JavaScript and Supabase (PostgreSQL REST API).
+## Student Information
 
-## Student information
+- **Name:** Oleksandr Steshenko
+- **Student ID:** 67674
+- **GitHub username:** vistula-team-project-67674
 
-- Student name: Oleksandr Steshenko
-- Vistula Student ID: 67674
-- GitHub: https://github.com/vistula-team-project-67674
+## Project Description
 
-## Links
+A simple Task Manager web application that allows users to create, view, edit, complete, and delete tasks.
 
-- Repository: https://github.com/vistula-team-project-67674/vistula-task-manager
-- GitHub Pages: https://vistula-team-project-67674.github.io/vistula-task-manager/
+The application uses Supabase as its backend database and is hosted using GitHub Pages.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Supabase
+- GitHub
+- GitHub Pages
+
+## Live Application
+
+[Open Task Manager](https://vistula-team-project-67674.github.io/vistula-task-manager/)
 
 ## Features
 
-- Read tasks from Supabase
-- Add tasks
-- Edit task title and description
-- Mark tasks complete or incomplete
+- Create new tasks
+- Display all tasks
+- Edit existing tasks
+- Mark tasks as completed
 - Delete tasks
-- Persist tasks in the Supabase database
+- Store task data in Supabase
+- Load tasks from the database
 
-## Technologies
+## Database
 
-- HTML5, CSS3 and vanilla JavaScript
-- Supabase PostgreSQL and automatically generated REST API
-- GitHub Pages
+Supabase table: `tasks`
 
-## Configuration
-
-The public Supabase project URL and publishable key are stored in `config.json`. A publishable key is intended for browser use; never put a Supabase secret or service-role key in this repository.
-
-The `tasks` table has these columns:
-
-- `id` – BIGINT identity primary key
+Columns:
+- `id` – BIGINT, primary key
 - `title` – TEXT, required
-- `description` – TEXT, optional
+- `description` – TEXT
 - `completed` – BOOLEAN, default false
 
-The demonstration table uses public RLS policies for this introductory assignment. It must contain test data only.
+## Team Collaboration
+
+**Team member 1 – Oleksandr Steshenko**
+- Student ID: 67674
+- GitHub: [vistula-team-project-67674](https://github.com/vistula-team-project-67674)
+- Contribution page: [Oleksandr's contribution](https://shcherbakovoleh.github.io/vistula-task-manager/contribution.html)
+
+**Team member 2 – Oleh Shcherbakov**
+- Student ID: 71663
+- GitHub: [ShcherbakovOleh](https://github.com/ShcherbakovOleh)
+- Contribution page: [Oleh's contribution](https://vistula-team-project-67674.github.io/vistula-task-manager/contribution.html)
+
+## Pull Requests
+
+### Outgoing Pull Request – Oleksandr's contribution to Oleh's repository
+
+[Pull Request #1 – ShcherbakovOleh/vistula-task-manager](https://github.com/ShcherbakovOleh/vistula-task-manager/pull/1)
+
+### Incoming Pull Requests – Oleh's contribution to Oleksandr's repository
+
+[Pull Request #1](https://github.com/vistula-team-project-67674/vistula-task-manager/pull/1)
+
+[Pull Request #2](https://github.com/vistula-team-project-67674/vistula-task-manager/pull/2)
 
 ## Deployment
 
-GitHub repository → Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+The application is deployed using GitHub Pages from the `main` branch.
 
-After deployment, open the GitHub Pages link above.
+**Live URL:**  
+https://vistula-team-project-67674.github.io/vistula-task-manager/
 
-## Team collaboration
+---
 
-The following links must be filled in after the two Pull Requests have been merged:
-
-- Outgoing Pull Request (this student contributed to a partner repository): TODO
-- Incoming Pull Request (partner contributed to this repository): TODO
-
-The partner must add `contribution.html` and `contribution.json` through an incoming Pull Request. Do not create those two files directly in this repository.
+Practical Assignment 1 – Task Manager & Team Collaboration  
+Vistula University
